@@ -1,0 +1,37 @@
+{
+  "name": "review_all_propel_permission",
+  "version": "1.0.0",
+  "description": "This script will restart both MPC and SMP supplier for all onboarded Propel customers in Production Env.",
+  "repository": "https://github.houston.entsvcs.net/pli/at_review_all_propel_permissions",
+  "license": "MIT",
+  "main": "propel.js",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "inquirer": "^4.0.1",
+    "log4js": "^2.3.3",
+    "loglevel": "^1.4.1",
+    "minimist": "^1.2.0",
+    "node-jen": "^1.0.6",
+    "node-xlsx": "^0.7.4",
+    "phantomjs-prebuilt": "^2.1.14",
+    "selenium-webdriver": "^3.3.0",
+    "tmp": "^0.0.31",
+    "xlsx": "^0.9.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "bin": {
+    "propel": "propel.js"
+  },
+  "keywords": [
+    "propel",
+    "autotool"
+  ],
+  "author": "pli <pli@hpe.com>",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "standard": "^10.0.1"
+  }
+}

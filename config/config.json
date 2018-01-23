@@ -1,0 +1,26 @@
+{
+  "propelServer": "https://www.example.com",
+  "propelAccount": "admin",
+  "propelPassword": "admin",
+  "propelElementTimeout": 120000,
+  "propelValidLoadingTime": 5000,
+  "browser": "chromeHeadless",
+  "maxProcesses": 6,
+  "categoriesList": [
+      "Network",
+      "Administered by DXC",
+      "Microsoft® Hyper-V"
+  ],
+  "catalogItems": [
+      {
+          "Network Switch": [
+              "SMC"
+          ]
+      },
+      {
+          "Customer Dedicated Virtual Host Cluster": [
+              "SMC"
+          ]
+      }
+   ]
+}

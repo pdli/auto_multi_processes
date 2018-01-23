@@ -1,0 +1,29 @@
+{
+  "supportUsers": [
+      {
+        "username":"username",
+        "password":"password",
+        "mail": "example@hpe.com",
+        "editable":true,
+        "disable":false
+      }
+  ],
+  "migrationUsers": [
+      {
+        "username":"username",
+        "password":"password",
+        "mail": "example@hpe.com",
+        "editable":true,
+        "disable":false
+      }
+  ],
+  "idmAdminUsers": [
+      {
+          "username":"username",
+          "password":"password",
+          "mail": "example@hpe.com",
+          "editable":true,
+          "disable":false
+      }
+  ]
+}
